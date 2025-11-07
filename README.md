@@ -68,4 +68,12 @@ ik heb een elf die snel is maar 1 shot en een brute die super slowm maar veel hp
 
 ## Les6
 
-x
+[Bo](https://github.com/lopy2323/Bo-M3/tree/main)
+
+# depedecy's
+
+towernum get and set
+howfar get and set
+
+tiledata public because its a info class do not know how to get set that
+
