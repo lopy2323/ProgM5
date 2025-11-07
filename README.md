@@ -47,7 +47,7 @@ opdracht 4 kon ik niet doen want tower defense was al in geleverd
 
 ### Opdracht 3
 
-x
+![](Gif/L3o2.gif)
 
 ## Les4
 
