@@ -86,7 +86,7 @@ tiledata public because its a info class do not know how to get set that
 In deze les heb ik Code Conventies geleerd en een werkende inventory systeem gemaakt waarmee waneer je op space drukt laat weten wat op de gron en in de inventory zit
 en als je q en e drukt om te roteren tussen items om te droppen dat je doet via F dit checked ook of je het ook echt in je invetory hebt
 
-[scripts](Assets/Les1/M6/les 1)
+[scripts](Assets/Les1/M6/les1)
 
 ## les2
 
