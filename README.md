@@ -77,3 +77,116 @@ howfar get and set
 
 tiledata public because its a info class do not know how to get set that
 
+## progm6
+
+## les1
+
+![](Gif/M6/les1.gif)
+
+In deze les heb ik Code Conventies geleerd en een werkende inventory systeem gemaakt waarmee waneer je op space drukt laat weten wat op de gron en in de inventory zit
+en als je q en e drukt om te roteren tussen items om te droppen dat je doet via F dit checked ook of je het ook echt in je invetory hebt
+
+[scripts](Assets/Les1/M6/les1)
+
+## les2
+
+het lukte niet echt
+
+## les3
+
+![](Gif/M6/les3.gif)
+
+ik heb in deze les geleerd hoe ik met sritabole object om moest gaan 
+ook werden er nog wat anderen dingen laten gezien ik wist niet dat je het zo kon comineren ik deed de class in de class
+dus dat was ook iets nuews
+
+[scripts](Assets/Les1/M6/les3)
+
+## les4
+
+![](Gif/L2o1.gif)
+
+Deze Opdrach was gewoon de zelfde opdrach als m5 les 2 opdracht 1 en dus zag geen verscheel
+want action event zijn een deel van delagets dus het is al goed gemaakt voor mijn gevoel
+graag commentaar al moet het worden veranderedd
+
+[script](Assets/Les2/Opdracht1)
+
+## les5
+
+![](Gif/M6/les5.gif)
+
+hier heb ik geleerd hoe ik i metoode in een base class fraag en die kan activeren vanaf de collider
+de code kijkt of het een colletabol is en zo ja convert hij het naar iets waar ik de collected() op kan uitvoeren
+om zo makkelijk meerderen dingen tedoen zonder moeite
+ik had eerst voor de collectabole manger een dicanary met een vector 3 want ik wou het noaw keriger maar toen dacht ik het is helamaal niet nodig voor de opdracht
+
+[scripts](Assets/Les1/M6/Les5)
+
+## les6 
+
+![](Gif/M6/les6.gif)
+
+ik heb in deze opdracht een troll gemaakt 
+de troll heeft 50% kans om tehelen dus in de gif duurt het bestwel lang om het tezien
+maar de trool heeft ook 300 hp en ik heb alle berichten veranderd ik had de template gepakt van de goblin
+dat ging veransend snel.
+
+[scripts](Assets/Les1/M6/les6)
+
+## les7
+`` 
+public bool IsPlayerReadyToAttack(Player player)
+{
+    if (player == null)
+    {
+     return false;
+    }
+    if (!player.IsAlive)
+    {
+     return false;
+    }
+    if (player.AttackCooldown > 0)
+    }
+     return false;
+    }
+     if (player.Target == null)
+    {
+    return false;
+    }
+    if (!player.Target.IsAlive)
+    {
+    return false;
+    }
+    if (Vector3.Distance(player.transform.position, player.Target.transform.position) > 5f)
+    {
+    return false;
+    if (player.Mana < 20)
+    {
+    return false;
+    }
+    if (player.WeaponEquipped)
+    {
+    return false;
+    }
+    if (player.Health < 30)
+    {
+    return false;
+    }
+    if (!player.HasBuff("Strength"))
+    {
+    return false;
+    }
+    if (player.IsStunned)
+    {
+    return false;
+    }
+    if (player.IsSlowed)
+    {
+    return false;
+    }
+    return true
+ }
+  ``
+
+
