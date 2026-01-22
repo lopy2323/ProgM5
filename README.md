@@ -135,7 +135,7 @@ dat ging veransend snel.
 [scripts](Assets/Les1/M6/les6)
 
 ## les7
-`` 
+```
 public bool IsPlayerReadyToAttack(Player player)
 {
     if (player == null)
@@ -187,6 +187,6 @@ public bool IsPlayerReadyToAttack(Player player)
     }
     return true
  }
-  ``
+  ```
 
 
